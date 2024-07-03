@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    background-color: azure
+}
+
+header {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.link-header {
+    font-size: 46px;
+    font-weight: 40px;
+    margin-top: 20px;
+    margin-left: 49px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    cursor: pointer;
+
+}
+
+.main-button {
+    font-size: 56px;
+    font-weight: 40px;
+    margin-top: 20px;
+    margin-left: 49px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    background: hsl(175, 63%, 38%);
+    border-radius: 46.5px;
+    width: 190px;
+    height: 69px;
+}
+
+h1 {
+    font-weight: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.monza-one {
+    display: inline-block;
+}
+
+.monza-two {
+    display: inline-block;
+}
+
+.monza-three {
+    display: inline-block;
+}
+
+.details-list {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.table {
+    display: inline-block;
+    font-weight: 40px;
+    font-size: 35px;
+    margin-left: 330px;
+}
+
+body {
+    margin-left: 30px;
+}
+
+.contact {
+    display: inline-block;
+    font-weight: 40px;
+    font-size: 35px;
+}
+
+a:visited {
+
+    color: crimson
+}
+
+@media screen and (max-width:1000px) {
+
+    body {
+        background-color: coral
+    }
+
+    header {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .link-header {
+        font-size: 41px;
+        font-weight: 40px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 45px;
+        cursor: pointer;
+
+    }
+
+    .main-button {
+        font-size: 56px;
+        font-weight: 40px;
+        margin-top: 20px;
+        margin-left: 49px;
+        margin-right: 45px;
+        margin-bottom: 45px;
+        cursor: pointer;
+        background: hsl(175, 63%, 38%);
+        border-radius: 46.5px;
+        width: 190px;
+        height: 69px;
+    }
+
+    h1 {
+        font-weight: 40px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .monza-one {
+        display: inline-block;
+        margin-left: 160px;
+    }
+
+    .monza-two {
+        display: inline-block;
+        margin-left: 160px;
+    }
+
+    .monza-three {
+        display: inline-block;
+        margin-left: 160px;
+    }
+
+    .details-list {
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+        margin-left: 185px;
+
+    }
+
+    p {
+        font-weight: 40px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .table {
+        display: inline-block;
+        font-weight: 30px;
+        font-size: 25px;
+        margin-left: 200px;
+    }
+
+    body {
+        margin-left: 30px;
+    }
+
+    .contact {
+        display: inline-block;
+        font-weight: 25px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    a:visited {
+
+        color: crimson
+    }
+}
+
+@media screen and (max-width:412px) {
+
+    body {
+        background-color: chartreuse
+    }
+
+    header {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .link-header {
+        font-size: 21px;
+        font-weight: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 4px;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+    .main-button {
+        font-size: 46px;
+        font-weight: 30px;
+        margin-top: 20px;
+        margin-left: 58px;
+        margin-right: 50px;
+        margin-bottom: 45px;
+        cursor: pointer;
+        background: hsl(175, 63%, 38%);
+        border-radius: 40px;
+        width: 170px;
+        height: 59px;
+    }
+
+    h1 {
+        font-weight: 30px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .monza-one {
+        margin-left: 10px;
+        height: 200px;
+        width: 300px;
+    }
+
+    img {
+        width: 310px;
+        height: 200px;
+    }
+
+        .monza-two {
+            margin-left: 10px;
+            height: 200px;
+            width: 300px;
+    }
+
+    .monza-three {
+        margin-left: 10px;
+        height: 200px;
+        width: 300px;
+    }
+
+    .details-list {
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 80px;
+        margin-bottom: 24px;
+       
+
+    }
+
+    p {
+        font-weight: 13px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 0;
+        margin-right:50px;
+    }
+
+    .table {
+        text-align: center;
+        font-weight: 25px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+    body {
+        margin-left: 30px;
+    }
+
+    .contact {
+        display: inline-block;
+        font-weight: 20px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    a:visited {
+
+        color: crimson
+    }
+}
